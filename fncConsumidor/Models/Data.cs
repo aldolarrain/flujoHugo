@@ -1,4 +1,4 @@
-﻿namespace ApiProductor.Controllers.Models
+﻿namespace fncConsumidor.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
@@ -9,7 +9,7 @@
         [DataType(DataType.DateTime)]
         [Required]
         public DateTime EventDate { get; set; }
-        
+
         [Required]
         public string Event { get; set; }
 
